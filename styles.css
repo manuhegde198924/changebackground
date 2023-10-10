@@ -1,0 +1,38 @@
+body{
+font-family: 'Times New Roman', Times, serif;
+text-align:center;
+transition:background-color 0.5s;
+height:100vh;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: beige;
+}
+#change-bg-button{
+    padding:10px 20px;
+    font-size: 24px;
+    border:none;
+    background-color:coral;
+    color:bisque;
+    cursor:pointer;
+    border: radius 5px;
+
+
+}
+#change-bg-button:hover{
+    background-color: #2980b9;
+}
+.gradient-button {
+    background-image: linear-gradient(to right, #ff5733, #ffbd33);
+}
+
+.image-button {
+    background-image:url('https://www.geekster.in/') ;
+    background-size: cover;
+}
+.image-button {
+    background-image: url('https://www.topcoder.com/thrive/articles/A%20bit%20of%20fun:%20fun%20with%20bits');
+    background-size: cover;
+}
+
